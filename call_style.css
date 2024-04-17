@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('texture.jpg');
+}
+
+.container {
+    width: 300px;
+    margin: 25vh 90vh;
+    padding: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin-top: 10px;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact-form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #5DADE2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgba(224, 153, 19, 0.925);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+nav ul li a:hover {
+    color: rgb(53, 53, 223);
+    font-size: 1.7rem;
+}
+
+
+.left {
+    font-size: 2rem;
+    color: white;
+}
+
+.call h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50%;
+}
